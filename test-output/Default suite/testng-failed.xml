@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="com.pm0n3s.NewBTrackerAPI.Frontend.NewBTrackerFrontEndTests">
+        <methods>
+          <include name="setup"/>
+          <include name="givenValidInput_whenRegisterButtonClicked_userIsCreatedAndLoggedIn"/>
+          <include name="givenValidData_whenDeleteIsClicked_DataShouldBeDeleted"/>
+          <include name="init"/>
+          <include name="givenNoRequiredInput_whenUpdateIsClicked_nothingShouldHappen"/>
+          <include name="cleanup"/>
+        </methods>
+      </class> <!-- com.pm0n3s.NewBTrackerAPI.Frontend.NewBTrackerFrontEndTests -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
